@@ -174,13 +174,13 @@ else {
         "version": "0.0.1",
         "description": "An extension for controlling mobs in MakeCode for Minecraft Education",
         "dependencies": {
-            "device": "*"
+            "core": "*"
         },
         "files": [],
         "testFiles": [
         ],
         "supportedTargets": [
-            "arcade"
+            "minecraft"
         ],
         "preferredEditor": "tsprj"
     }
