@@ -8,10 +8,14 @@ category.
 mobEvents.executeVindicatorCommand(mobEvents.createSelector(), Vindicator.BecomeAPatrolFollower)
 ```
 
+The blocks in this extension send mob events using the `/event` slash command. Not all mob
+events cause an immediate reaction, some configure the behavior of the mob instead. Try
+experimenting with events in a variety of situations to see what happens!
+
 ## Parameters
 
 * **selector**: A EntitySelector specifying which entities to send the command to
-* **command**: An Vindicator for the command to send to the selected entities.
+* **command**: A Vindicator command to send to the selected entities
 
 ```package
 makecode-minecraft-mob-events=github:microsoft/makecode-minecraft-mob-events
